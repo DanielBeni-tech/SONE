@@ -1,4 +1,7 @@
-Django>=4.2
-djangorestframework
-django-cors-headers
-python-dotenv
+fastapi
+uvicorn[standard]
+sqlalchemy
+python-jose[cryptography]
+bcrypt
+python-multipart
+pydantic
